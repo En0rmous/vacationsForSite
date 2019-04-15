@@ -1,0 +1,184 @@
+html body table.table tr td ul.JobsUL{
+	text-decoration: none;
+  list-style: none;  
+  position: relative;
+  margin-top: -10px;
+}
+html body table.table tr td .JobsUL li{
+	padding-left: 15px;
+  padding-top: 3px;
+  margin-bottom: 3px;
+  background: transparent url(./img/listIcon.png) no-repeat 0px 6px;
+  font-size: 14px;
+	text-align:left;
+}
+html body table.table tr td .JobsUL li a{
+	position: relative;
+  color: #87212e;
+  text-decoration: none;
+}
+.JobsUL li a:hover{
+	color: #87212e;
+	text-decoration: none;
+}
+.JobsUL li a:before{
+	content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #87212e;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.JobsUL li a:hover:before{
+	 visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+html body table.table tbody tr td h1 a{
+	position: relative;
+  color: #87212e;
+  text-decoration: none;
+}
+h1 a:hover{
+	color: #87212e;
+	text-decoration: none;
+}
+h1 a:before{
+	content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #87212e;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+h1 a:hover:before{
+	visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+table.table{
+   margin-top:20px;
+   border-collapse: collapse;
+ }
+
+table.table > thead > tr > th{
+  border-bottom: 1px solid #87212e;
+}
+table.table > tbody > tr > td{
+    border:none;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.container{
+	margin:auto;
+}
+
+html body table.table tbody tr td.imgBlock{
+  height: auto;
+  width: 150px;
+  margin: auto;
+  padding: 0 0 0 25px !important;
+
+}
+html body table.table tbody tr td.imgBlock img{
+  box-sizing: border-box;
+  width: 150px;
+  height: auto;
+  margin: 20px 10px;
+	-webkit-box-shadow:4px 8px 8px 1px rgba(0, 0, 0, 0.17);
+	-moz-box-shadow:4px 8px 8px 1px rgba(0, 0, 0, 0.17);
+	box-shadow:4px 8px 8px 1px rgba(0, 0, 0, 0.17);
+	text-align:center;
+	padding:2px;
+	border-radius: 2px;
+	background:white;
+}
+html body table.table tbody tr td h2{
+  margin-bottom: 3px;
+  color:black;
+}
+div.h2Prof{
+	padding: 0 10px;
+}
+body div.container > h2{
+	text-align: center;
+	color:#87212e;
+	letter-spacing: 0.3em;
+	font-size: 24px;
+  margin-bottom: 30px;
+}
+html body table.table tbody tr td h1{
+  text-transform: lowercase;
+  margin-top: 10px;
+	text-align:left;
+	display:inline-block;
+}
+html body table.table tbody tr td hr{
+  border: 0;
+  height: 1px;
+  background: #87212e;
+  background-image: -webkit-linear-gradient(left, #ffe8e8, #87212e, #ffe8e8);
+  background-image: -moz-linear-gradient(left, #ffe8e8, #87212e, #ffe8e8);
+  background-image: -ms-linear-gradient(left, #ffe8e8, #87212e, #ffe8e8);
+  background-image: -o-linear-gradient(left, #ffe8e8, #87212e, #ffe8e8);
+}
+div.sidecenter hr{
+  border: 0;
+  height: 1px;
+  background: #87212e;
+  background-image: -webkit-linear-gradient(left, #ffe8e8, #87212e, #ffe8e8);
+  background-image: -moz-linear-gradient(left, #ffe8e8, #87212e, #ffe8e8);
+  background-image: -ms-linear-gradient(left, #ffe8e8, #87212e, #ffe8e8);
+  background-image: -o-linear-gradient(left, #ffe8e8, #87212e, #ffe8e8);
+}
+
+.title{
+  text-align: center;
+  letter-spacing: 0.5em;
+}
+/* Стили для страницы редактирования */
+.job_card {
+  margin:15px 0;
+}
+.company_block {
+  border:1px solid #aaa;
+  border-radius:5px;
+  background:#eee;
+  padding:10px;
+  margin-bottom:15px;
+}
+
+img.add_job {
+  transform: rotate(45deg); 
+  background:#c3e6cb;
+  cursor:pointer;
+  border-radius:5px;
+}
+img.add_job:hover, img.add_job:focus, img.add_job:active {
+  background:#155724;
+}
+
+img.remove_job {
+  background:#f8d7da;
+  cursor:pointer;
+  border-radius:5px;
+}
+img.remove_job:hover,  img.remove_job:active, img.remove_job:focus {
+  background:#721c24;
+}
